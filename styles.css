@@ -1,0 +1,107 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #121212;
+  background-image: radial-gradient(#424242 1px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -30px -30px;
+  color: lightgray;
+}
+
+.name {
+  margin: 0;
+}
+
+.light-text {
+  color: #fcfcfc;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+}
+
+.social-icon {
+  color: lightgray;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.container {
+  padding: 2rem;
+  width: 100%;
+  max-width: 48rem;
+}
+
+/* .tech-icon-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+} */
+
+.tech-icon-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .tech-icon-list {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.project-card {
+  color: lightgray;
+  text-decoration: none;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding-inline: 0.5rem;
+}
+
+hr.solid {
+  height: 2px;
+  background-color: #212121;
+  border: none;
+}
+
+.list-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

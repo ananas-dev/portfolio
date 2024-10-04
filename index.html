@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucien Fiorini</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img class="profile-picture" src="img/lulu.png" />
+      <h1 class="name light-text">Lucien Fiorini</h1>
+      <p class="subtitle">Computer engineering student &amp; IT enthusiast</p>
+
+      <a class="social-icon" href="https://github.com/ananas-dev"
+        ><i data-lucide="github"></i
+      ></a>
+      <a class="social-icon" href="https://www.linkedin.com/in/lucien-fiorini-286133322/"
+        ><i data-lucide="linkedin"></i
+      ></a>
+
+      <hr class="solid" />
+
+      <section>
+        <h2 class="light-text">Favorite technologies</h2>
+
+        <div class="tech-icon-list">
+          <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
+            <img height="40" src="img/c.svg" />
+          </a>
+          <a href="https://www.phoenixframework.org/">
+            <img height="40" src="img/phoenix.svg" />
+          </a>
+          <a href="https://react.dev/">
+            <img height="40" src="img/react.svg" />
+          </a>
+          <a href="https://www.rust-lang.org/">
+            <img height="40" src="img/rust.png" />
+          </a>
+          <a href="https://www.typescriptlang.org/">
+            <img height="40" src="img/typescript.svg" />
+          </a>
+          <a href="https://ffmpeg.org/">
+            <img height="40" src="img/ffmpeg.svg" />
+          </a>
+          <a href="https://go.dev/">
+            <img height="40" src="img/go.svg" />
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="light-text">Awards</h2>
+        <ul style="list-style-type: none; margin: 0; padding: 10px;">
+          <li class="list-item">
+            🥇 in CyberSec task HackYeah 2024, biggest hackathon in Europe
+          </li>
+          <li class="list-item">
+            🥇 at CECI - BEST LNN hackathon february 2024
+          </li>
+          <li class="list-item">
+            🥉 at Louvain-Li-Nux Game Jam 2024
+          </li>
+          <li class="list-item">
+            🥈 at CECI - BEST LLN hackathon november 2023
+          </li>
+          <li class="list-item">
+            🥉 at CECI - BEST LLN hackathon february 2023
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="light-text">Projects</h2>
+        <div class="project-grid">
+          <a class="project-card" href="https://challengerocket.com/hackyeah-2024/works/denisdefend-d1403f#go-pagecontent">
+            <i data-lucide="shield-check"></i>
+            <div><b>DenisDefend</b><span class="badge">React, Python, AI</span></div>
+            Browser extension to protect from shady online stores.
+          </a>
+          <a class="project-card" href="/img/zls.png">
+            <i data-lucide="clapperboard"></i>
+            <div><b>ZLS</b><span class="badge">Phoenix, React, Python</span></div>
+            Video editing automation as a service
+          </a>
+          <a class="project-card" href="https://github.com/ananas-dev/denis">
+            <i data-lucide="brain-circuit"></i>
+            <div><b>DenisTetris</b><span class="badge">Rust, Python</span></div>
+            Tetris bot, capable of playing in real time
+          </a>
+          <a class="project-card" href="https://github.com/ananas-dev/pixie">
+            <i data-lucide="omega"></i>
+            <div><b>Pixie</b><span class="badge">C</span></div>
+            Small electronic circuit solver made for learning
+          </a>
+          <a
+            class="project-card"
+            href="https://github.com/ananas-dev/chip8-emu"
+          >
+            <i data-lucide="joystick"></i>
+            <div><b>Chip8 Emulator</b><span class="badge">C</span></div>
+            Run 8-bit pong on modern hardware
+          </a>
+          <a
+            class="project-card"
+            href="https://github.com/ananas-dev/regez"
+          >
+            <i data-lucide="regex"></i>
+            <div><b>Regez</b><span class="badge">Rust</span></div>
+            Regular expression to C compiler
+          </a>
+        </div>
+      </section>
+      <section>
+        <h2>
+          CV
+        </h2>
+        <a style="color: white" href="/doc/cv_fr.pdf">
+          Download (french)
+        </a>
+        <br>
+        <a style="color: white" href="/doc/cv_en.pdf">
+          Download (english)
+        </a>
+      </section>
+    </div>
+  </body>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</html>
